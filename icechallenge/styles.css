@@ -1,0 +1,25 @@
+body{
+    background-color: #faa7c9;
+    max-width: 700px;
+    margin: 0 auto;
+}
+main {
+    text-align: center;
+
+}
+.fourtharticle{
+    text-align:left;
+
+}
+h1:hover{
+    color: black;
+}
+.maincontent{
+    text-align: center;
+    margin: 0 auto;
+    color:white;
+}
+img {
+    width: 10%;
+    text-align: center;
+}
