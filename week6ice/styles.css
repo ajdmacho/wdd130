@@ -1,0 +1,22 @@
+.gridcontainer {
+    display: grid ;
+    grid-template-columns: 1fr 1fr ;
+}
+.tart {
+    grid-column: 1/3;
+    grid-row: 1;
+    text-align: center;
+    z-index: 3;
+    font-size: 7em;
+}
+.cherryimage {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.cherry {
+    color: rgb(151, 19, 19);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 0 auto;
+    font-size: 3em;
+}
