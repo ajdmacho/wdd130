@@ -16,6 +16,7 @@
 .logo {
     width: 80px;
 }
+
 body {
     background-color: #335C67;
     font-family: 'Roboto Slab', serif, 'Russo One', sans-serif, 'Times New Roman', Times, serif;
@@ -31,6 +32,12 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+#banner {
+    min-width: 100%;
+    max-width: 100%;
+    border: 10px solid tan;
+
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -43,6 +50,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
+
 #logo_link {
     padding-top: 5px;
     justify-self: center;
@@ -136,10 +144,74 @@ nav a{
     width: 100%;
 
 }
+
+.salmon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    
+}
+.salmon img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 90%;
+    justify-self: center;
+}
+
+.salmontext {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-content: center;
+    text-align: center;
+}
+.graycanyon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+
+}
+.graycanyon img {
+    grid-column: 2/3;
+    max-width: 90%;
+    grid-row: 1/2;
+    justify-self: center;
+}
+.graycanyontext {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-content: center;
+    text-align: center;
+}
+.grandcanyon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+
+
+}
+.grandcanyon img {
+    grid-column: 1/2;
+    max-width: 90%;
+    grid-row: 1/2;
+    justify-self: center;
+    
+}
+
+.grandcanyontext {
+    grid-column: 2/3; 
+    grid-row: 1/2;
+    justify-content: center;
+    text-align: center;
+}
+
+#headertext {
+    text-align: center;
+}
 .icon {
     width: 80px;
     padding-top: 10px;
 }
+
 h4 {
     color: black;
 }
