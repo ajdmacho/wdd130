@@ -36,6 +36,17 @@ body {
   font-size: 18px;
   text-align: center;
 }
+
+.logo {
+  max-width: 400px;
+  text-align: center;
+}
+
+.wireframe {
+  max-width: 500px;
+ 
+}
+
 img {
   display: block;
   margin: 0 auto;

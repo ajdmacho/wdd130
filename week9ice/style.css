@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    
+    
+
+}
+
+.card {
+    width: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.headerimage {
+    width: 100%;
+    grid-column: 1/4;
+
+}
+
+.awesomearticle {
+    padding: 10%;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color: white;
+}
