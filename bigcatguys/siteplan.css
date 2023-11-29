@@ -4,25 +4,25 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Schoolbell&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #e16389   ;
-  --secondary-color: #fbd8b7 ;
-  --accent1-color: #A43312;
-  --accent2-color: #095d9a;
+  /* easier calls of colors, more organized*/
+  --primary-color: #d1918c   ;
+  --secondary-color: #e3e3db ;
+  --accent1-color: #0000FF;
+  --accent2-color: #000000;
 
-  /* change the values below to your chosen font(s) */
+  /* Calling fonts, making easier to organize */
   --heading-font: "Schoolbell";
   --paragraph-font: Playpen Sans, Helvetica, sans-serif;
 
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #e16389;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #e16389; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #e16389  ;
+  /* Easier organization of colors, inspiration taken from the site plan */
+  --headline-color-on-white: #d1918c;  
+  --headline-color-on-color: #e3e3db; 
+  --paragraph-color-on-white: #d1918c; 
+  --paragraph-color-on-color: white; 
+  --paragraph-background-color: #d1918c;
   --nav-link-color: white;
-  --nav-background-color: #e16389;
-  --nav-hover-link-color: #A43312;
+  --nav-background-color: #e3e3db;
+  --nav-hover-link-color: #d1918c;
   --nav-hover-background-color: #fbd8b7;
 }
 
@@ -116,10 +116,11 @@ nav {
   text-align: center;
   font-size: 1.2em;
   font-family: 'Playpen Sans', cursive;
-}
-nav  {
   list-style-type: none;
   display: flex;
+}
+nav  {
+  
 
 }
 nav a {
