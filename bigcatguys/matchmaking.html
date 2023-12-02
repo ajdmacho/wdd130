@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BigCatGuys Matchmaking page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav>
-            
+
             <a id="logolink" href="index.html">
                 <img src="images/bigcatguyslogo.jpg" alt="BigCatGuys Logo" width="200px">
             </a>
@@ -17,69 +19,97 @@
             <a href="matchmaking.html">Matchmaker</a>
             <a href="aboutus.html">About Us</a>
         </nav>
-        
+
     </header>
     <div class="content">
         <div class="title">
             <h1>Cat Matchmaker</h1>
         </div>
-        <div class="filter">
+        <div class="criteria">
             <div id="head">
                 <h3>Kitten Filter</h3>
             </div>
-            <div class="criteria">
-                <ul>
-                    <li>
-                        <label>Max Bench (lbs):</label>
-                        <input type="text">
-                    </li>
-                    <li>
-                        <label>Max Squat (lbs):</label>
-                        <input type="text">
-                    </li>
-                    <li>
-                        <label>Height (Inches):</label>
-                        <input type="text">
-                    </li>
-                    <li>
-                        <label>Favorite Anime:</label>
-                        <input type="text">
-                    </li>
-                    <li>
-                        <p>Science based lifter?</p>
-                            <label>Yes</label>
-                            <input type="radio">
-                            <label>no</label>
-                            <input type="radio">
-                    </li>
-                    <li>
-                        <button>Find My Cat!</button>
-                        
+            <ul>
+                <li>
+                    <label>Max Bench (lbs):</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <label>Max Squat (lbs):</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <label>Height (Inches):</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <label>Favorite Anime:</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <p>Science based lifter?</p>
+                    <label>Yes</label>
+                    <input type="radio">
+                    <label>no</label>
+                    <input type="radio">
+                </li>
+                <li>
+                    <button>Find My Cat!</button>
 
-                    </li>
-                </ul>
 
-                
+                </li>
+            </ul>
+
+
+        </div>
+        <img id="heart" src="images/black heart.png" alt="going to be a heart" width="100px">
+
+        <div class="catselection">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="catmark" src="images/catselfie1.jpg" alt="cat taking a selfie"
+                            style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Mark</h1>
+                        <p>Flirty cat</p>
+                        <p>he is quirky and funny</p>
+                    </div>
+                </div>
             </div>
-            <img src="http://placekitten.com/200/200" alt="going to be a heart">
-            
-            <div class="catselections">
-                <div id="cat1">
-                    <img src="http://placekitten.com/200/200" alt="will find other picture of kitten">
-                    <p>Mark</p>
-                </div>
-                <div id="cat2">
-                    <img src="http://placekitten.com/200/200" alt="will find other picture of kitten">
-                    <p>Dwayne</p>
-                </div>
-                <div id="cat3">
-                    <img src="http://placekitten.com/200/200" alt="will find other picture of kitten">
-                    <p>Quincy</p>
-                </div>
 
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="catdwayne" src="images/kittendeadlift.jpg" alt="cat deadlifting"
+                            style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Dwayne</h1>
+                        <p>Very strong boy</p>
+                        <p>he will overpower you</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="catquiny" src="images/catselfie2.jpg" alt="cat taking a selfie"
+                            style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Quincy</h1>
+                        <p>he will be your best friend</p>
+                        <p>you WILL have a great time</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>    
+
+    </div>
     <div class="footer">
         <footer>
             <p id="copyright">BigCatGuys &copy; 2023 Alex Macho</p>
@@ -97,6 +127,7 @@
             </div>
         </footer>
     </div>
-    
+
 </body>
+
 </html>
