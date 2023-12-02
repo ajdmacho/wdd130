@@ -37,9 +37,7 @@ nav a {
   text-align: center;
   
 }
-nav a #logolink {
-  max-width: 400px 200px;
-}
+
 nav a:link, nav a:visited {
   color: black;
 }
