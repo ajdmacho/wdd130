@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BigCatGuys Homepage</title>
+    <title>BigCatGuys Matchmaking page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
-        
         <nav>
 
             <a id="logolink" href="index.html">
@@ -21,28 +20,97 @@
             <a href="matchmaking.html">Matchmaker</a>
             <a href="aboutus.html">About Us</a>
         </nav>
+
     </header>
-    <div class="hero">
-        <img src="images/hero.jpg" alt="Bring love and stregnth together">
-    </div>
-    <div class="descriptions">
-        <div class="matchmaker">
-            <img src="images/logo.jpg" alt="sam sulek flexing silhouette">
-            <p>
-                The heart of BigCatGuys lies in the "Kitten Matchmaking" section, Where users can input their personal
-                defining traits so we can help them find the perfect kitten for them.
-            </p>
-            <a href="matchmaking.html">Go to Kitten Matchmaker</a>
+    <div class="content">
+        <div class="title">
+            <h1>Cat Matchmaker</h1>
         </div>
-        <div class="aboutus">
-            <img src="images/catcomputer1.jpg" alt="placeholder">
-            <p>
-                The "About Us" section of the website provides an in-depth overview of the foundation's history, values,
-                and goals. It offers users an opportunity to delve into the origins of BigCatGuys, learning about the
-                passionate founders and the inspiration behind the project.
-            </p>
-            <a href="aboutus.html">See About Us!</a>
+        <div class="criteria">
+            <div id="head">
+                <h3>Kitten Filter</h3>
+            </div>
+            <ul>
+                <li>
+                    <label>Max Bench (lbs):</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <label>Max Squat (lbs):</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <label>Height (Inches):</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <label>Favorite Anime:</label>
+                    <input type="text">
+                </li>
+                <li>
+                    <p>Science based lifter?</p>
+                    <label>Yes</label>
+                    <input name="based" type="radio">
+                    <label>no</label>
+                    <input name="based" type="radio">
+                </li>
+                <li>
+                    <button>Find My Cat!</button>
+
+
+                </li>
+            </ul>
+
+
         </div>
+        <img id="heart" src="images/blackheart.png" alt="going to be a heart" 
+            style="width:100px;">
+
+        <div class="catselection">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="catmark" src="images/catselfie1.jpg" alt="cat taking a selfie"
+                            style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Mark</h1>
+                        <p>Flirty cat</p>
+                        <p>he is quirky and funny</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="catdwayne" src="images/kittendeadlift.jpg" alt="cat deadlifting"
+                            style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Dwayne</h1>
+                        <p>Very strong boy</p>
+                        <p>he will overpower you</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="catquincy" src="images/catselfie2.jpg" alt="cat taking a selfie"
+                            style="width:300px;height:300px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Quincy</h1>
+                        <p>he will be your best friend</p>
+                        <p>you WILL have a great time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <div class="footer">
         <footer>
@@ -61,7 +129,6 @@
             </div>
         </footer>
     </div>
-
 
 </body>
 
